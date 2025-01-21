@@ -92,6 +92,7 @@ header {
 
         display: flex;
         position: relative;
+        flex-direction: column;
 
 
         .like {
@@ -134,6 +135,10 @@ header {
     }
 }
 
+.card-description {
+    margin: 5px 0 15px;
+}
+
 .sales {
     background-color: var(--ct-sales);
     padding: 0 5px;
@@ -152,4 +157,25 @@ header {
     padding: 0 5px;
     top: 80%;
 
+}
+
+.brand {
+    color: grey;
+    font-style: italic;
+}
+
+.item-description {
+    text-transform: uppercase;
+    font-weight: bold;
+
+
+}
+
+.price {
+    color: var(--ct-sales);
+    margin-right: 5px;
+}
+
+.old-price {
+    text-decoration: line-through;
 }
