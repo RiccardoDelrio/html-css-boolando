@@ -54,7 +54,11 @@
 header {
     background-color: var(--ct-primary);
     padding: 10px 0;
+    position: fixed;
+    z-index: 10;
+    margin-top: -150px;
     width: 100%;
+
 }
 
 .headercontainer {
@@ -82,8 +86,8 @@ header {
 
 /*# start main */
 .card-container {
-    margin-top: 30px;
-    padding: 20px;
+    margin-top: 150px;
+
     flex-wrap: wrap;
     gap: 10px;
     max-width: 1400px;
@@ -178,4 +182,58 @@ header {
 
 .old-price {
     text-decoration: line-through;
+}
+
+/* end main */
+/* start footer */
+footer {
+    color: white;
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+
+
+
+        a {
+
+            color: white;
+            text-decoration: none;
+            font-size: 0.7rem;
+        }
+
+        .company-name {
+            font-size: 1.1rem;
+        }
+
+    }
+}
+
+.footer-container {
+    margin: auto;
+
+
+}
+
+.footer-rigth {
+    max-width: 50%;
+    flex-direction: column;
+    gap: 5px;
+
+
+    .social {
+
+        img {
+            background-color: white;
+
+            max-height: 18px;
+            max-width: 18px;
+            border-radius: 3px;
+
+        }
+
+    }
 }
