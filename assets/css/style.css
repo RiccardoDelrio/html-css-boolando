@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ct-primary: #ff6900;
+    --ct-sales: #ff0000;
+    --ct-sustainable: #008000;
+}
+
+/* utility */
+
+.w-70 {
+    width: 70%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-space-btw {
+    justify-content: space-between;
+}
+
+/* start header */
+header {
+    background-color: var(--ct-primary);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.headercontainer {
+    margin: auto;
+    align-items: center;
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 0 10px;
+
+        img {
+            max-height: 32px;
+        }
+    }
+}
