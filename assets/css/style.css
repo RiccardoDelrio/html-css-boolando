@@ -24,6 +24,19 @@
     justify-content: space-between;
 }
 
+.icon {
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+
+
+    img {
+        width: 100%;
+    }
+}
+
+
+
 /* start header */
 header {
     background-color: var(--ct-primary);
@@ -39,10 +52,18 @@ header {
     a {
         color: white;
         text-decoration: none;
-        padding: 0 10px;
+
 
         img {
             max-height: 32px;
+
         }
+    }
+}
+
+.category {
+    a {
+        padding: 10px;
+        ;
     }
 }
